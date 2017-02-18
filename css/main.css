@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{background-image: radial-gradient(#aaa, #ccc, #aaa);background-color: #ddd}
+*{font-family: 'love', 'century gothic' !important;}
+.game{border-radius: 0px;outline: 18px solid #888;border: 0px solid #778;height: 540px;width: 540px;background: #fff;position: relative;top: 60px;margin: auto; box-shadow: 0px 0px 5px 20px rgba(0, 0, 0, 0.7);}
+
+.anime{animation: bounce 0.35s ease infinite alternate;}
+
+.game table{border: 0;width: 100%;height: 100%;}
+.game tr td{background: #5C5F64;width: 20%;height: 20%;border: 0px solid transparent;box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.5) inset}
+
+.game tr td button{border:0;background: url(../images/ina.jpeg);background-size: 540px 540px; display: block;width: 100%;height: 100%;box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.99);background-color: #fff; font-size: 30px;font-weight: bold;color: #aaa;}
+
+.heart{animation: bounce 0.35s ease infinite alternate; cursor: pointer;transition: 0.4s transform ease-out;}
+.heart:hover, .heart:focus, .heart:active{transform: scale(1.18);}
+@keyframes bounce{
+    from {
+    	transform: translateY(10px);
+    }
+    to   {
+    	transform: translateY(-10px);
+    }
+}
+
+
+.btn-class{font-family: inherit;transition: 0.3s linear all;font-weight: bold;display: inline-block; margin-bottom: 0; text-align: center; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; background-image: none; transition: all 0.4s; position: relative; white-space: nowrap; padding: 2px 16px; font-size: 13px; line-height: 1.846; border-radius: 3px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; text-transform: uppercase; border: none;}
+.btn-class:hover{box-shadow: 0px 0px 2px rgba(0,0,0,0.4);}
+.btn-class:focus, .btn-class:active{box-shadow: 0px 0px 4px rgba(0,0,0,0.4);}
+.btn-class-default{color: #555; background-color: #f8f8f8;border: 1px solid #d8d8d8;}
+.btn-class-primary{color: #ffffff; background-color: #2196f3;}
+.btn-class-primary:hover{background-color: #0d87e9; border-color: rgba(0,0,0,0); color: #ffffff;}
+.btn-class-primary:focus{color: #ffffff; background-color: #0c7cd5; border-color: rgba(0,0,0,0);}
+
+
+@font-face {
+    font-family: love;
+    src: url(font/Circle Of Love.ttf);
+    font-weight: normal;
+}

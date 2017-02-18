@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PUZZLE</title>
+		<link rel="icon" type="image/png" href="logo.png" />
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="boostrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="boostrap/css/cerulean.min.css" />
+
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/remodal.css" />
+		<link rel="stylesheet" type="text/css" href="css/remodal-default-theme.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="game ">
+				<table class="gametable">
+					<tr>
+						<td data-valid='0'><button style="background-position: 0px 0px;" type="button"></button></td>
+						<td data-valid='1'><button style="background-position: -108px 0px;" type="button"></button></td>
+						<td data-valid='2'><button style="background-position: -216px 0px;" type="button"></button></td>
+						<td data-valid='3'><button style="background-position: -324px 0px;" type="button"></button></td>
+						<td data-valid='4'><button style="background-position: -432px 0px;" type="button"></button></td>
+					</tr>
+					<tr>
+						<td data-valid='5'><button style="background-position: 0px -108px;" type="button"></button></td>
+						<td data-valid='6'><button style="background-position: -108px -108px;" type="button"></button></td>
+						<td data-valid='7'><button style="background-position: -216px -108px;" type="button"></button></td>
+						<td data-valid='8'><button style="background-position: -324px -108px;" type="button"></button></td>
+						<td data-valid='9'><button style="background-position: -432px -108px;" type="button"></button></td>
+					</tr>
+					<tr>
+						<td data-valid='10'><button style="background-position: 0px -216px;" type="button"></button></td>
+						<td data-valid='11'><button style="background-position: -108px -216px;" type="button"></button></td>
+						<td data-valid='12'><button style="background-position: -216px -216px;" type="button"></button></td>
+						<td data-valid='13'><button style="background-position: -324px -216px;" type="button"></button></td>
+						<td data-valid='14'><button style="background-position: -432px -216px;" type="button"></button></td>
+					</tr>
+					<tr>
+						<td data-valid='15'><button style="background-position: 0px -324px;" type="button"></button></td>
+						<td data-valid='16'><button style="background-position: -108px -324px;" type="button"></button></td>
+						<td data-valid='17'><button style="background-position: -216px -324px;" type="button"></button></td>
+						<td data-valid='18'><button style="background-position: -324px -324px;" type="button"></button></td>
+						<td data-valid='19'><button style="background-position: -432px -324px;" type="button"></button></td>
+					</tr>
+					<tr>
+						<td data-valid='20'><button style="background-position: 0px -432px;" type="button"></button></td>
+						<td data-valid='21'><button style="background-position: -108px -432px;" type="button"></button></td>
+						<td data-valid='22'><button style="background-position: -216px -432px;" type="button"></button></td>
+						<td data-valid='23'><button style="background-position: -324px -432px;" type="button"></button></td>
+						<td data-valid='24' class="pivot"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!-- <button type="button" onclick="Game.Start();" class="btn-class btn-class-default" style="margin-top: 0px">Restart the game</button> -->
+		<script src="jquery/js/jquery-3.1.1.js" type="text/javascript"></script>
+		<script src="js/remodal.min.js"></script>
+		<script src="js/game.js" type="text/javascript"></script>
+	</body>
+</html>
