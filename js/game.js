@@ -176,7 +176,7 @@ var Game = {
 		remodalDiv.attr({
 			'id': 'sdf',
 			'data-remodal-id': 'fete',
-		}).find(".remodal-body").html("<img class='heart' src='logoH.png' /><h1>Congratulation</h1><strong class='h2'>Thanks for playing</strong><h4>Designed and coded by <strong>DrSoftware's Games</strong></h4><div><button type='button' class='btn btn-danger' onclick='Game.Start();'>Play again</button></div>");
+		}).find(".remodal-body").html("<img class='heart' src='logoH.png' /><h1>Congratulation</h1><strong class='h2'>Thanks for playing</strong><h4>Designed and coded by <strong>Lynnocheu's Games</strong></h4><div><button type='button' class='btn btn-danger' onclick='Game.Start();'>Play again</button></div>");
 
 		setTimeout(function()
 		{
