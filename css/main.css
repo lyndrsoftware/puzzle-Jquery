@@ -21,7 +21,7 @@ body{background-image: radial-gradient(#aaa, #ccc, #aaa);background-color: #ddd}
 .game table{border: 0;width: 100%;height: 100%;}
 .game tr td{background: #5C5F64;width: 20%;height: 20%;border: 0px solid transparent;box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.5) inset}
 
-.game tr td button{border:0;background: url(../images/ina.jpeg);background-size: 540px 540px; display: block;width: 100%;height: 100%;box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.99);background-color: #fff; font-size: 30px;font-weight: bold;color: #aaa;}
+.game tr td button{border:0;background: url(../images/image.jpg);background-size: 540px 540px; display: block;width: 100%;height: 100%;box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.99);background-color: #fff; font-size: 30px;font-weight: bold;color: #aaa;}
 
 .heart{animation: bounce 0.35s ease infinite alternate; cursor: pointer;transition: 0.4s transform ease-out;}
 .heart:hover, .heart:focus, .heart:active{transform: scale(1.18);}
